@@ -1,0 +1,147 @@
+main, header, nav, article, aside, footer{
+  background-color: rgb(246, 143, 189);
+  padding: 1%;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #efb3cb !important;
+}
+
+nav a, nav span {
+   display: flex;              
+  width: 90%;
+  height: 100%;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2rem;
+  border-radius: 8px;
+  border: 5px solid rgb(255, 255, 248);
+  background-color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+
+}
+.navbar .nav-link:hover {
+  background-color: #95b2dd;
+
+}
+
+.navbar .nav-link {
+  background-color: #b42d5a;   
+  color: white !important;     
+  border-radius: 8px;
+  padding: 6px 14px;
+  margin-right: 8px;
+  transition: background-color 0.2s ease;
+}
+h1 {
+  font-size: 4rem;
+  text-align: center;
+ 
+}
+section {
+    width: 80%;       
+  margin: 0 auto;   
+  padding: 1%;
+}
+
+
+
+p, input{
+  
+  color: #2a2a2a;
+}
+
+.about {
+  display: flex;
+  align-items: center;     
+  gap: 30px;                
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+.about-img {
+  height: 400px;
+  width: auto;
+  border-radius: 16px;
+}
+
+.about-text {
+  background-color: rgb(246, 143, 189); 
+  padding: 20px;
+  border-radius: 16px;
+  max-width: 400px;
+}
+
+footer {
+  margin-top: 40px;
+  border-radius: 20px;
+   padding: 20px;
+   padding-top: 20px;
+}
+
+.gif-container {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+}
+
+.sillygif {
+  height: 200px;
+  border-radius: 16px;
+}
+
+.accordion.accordion-flush .accordion-button {
+    background-color: rgb(254, 226, 238); 
+
+  display: flex;
+  align-items: center;     /* vertical alignment */
+  gap: 12px;               /* space between image and text */
+}
+
+
+.accordion-icon {
+  height: 300px;
+  width: auto;
+}
+.project-row {
+  display: flex;                 /* puts items side-by-side */
+  align-items: flex-start;       /* top-align text with image */
+  gap: 20px;                     /* space between image & text */
+}
+.project-img {
+  width: 300px;                  /* adjust as needed */
+  max-width: 100%;
+  height: auto;
+  display: block;                /* removes baseline gap */
+}
+
+.project-text {
+  flex: 1;                       /* text fills remaining space */
+}
+
+
+.resume {
+  display: flex;
+  align-items: center;     
+  gap: 30px;                
+  max-width: none;
+  margin: 40px auto;
+}
+
+.resume-img {
+  height: 400px;
+  width: auto;
+  border-radius: 16px;
+}
+
+.resume-text {
+  background-color: rgb(246, 143, 189); 
+  padding: 20px;
+  border-radius: 16px;
+  max-width: none;
+}
